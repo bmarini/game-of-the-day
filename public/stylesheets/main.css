@@ -1,0 +1,49 @@
+body {
+  margin: 2em auto;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+#wrapper {
+  margin: 0 auto;
+  width: 500px;
+}
+h1 {
+  color: #6c6;
+}
+h2 {
+  color: #696;
+}
+p {
+  #666;
+}
+
+a:link, a:visited {
+  color: #069;
+  text-decoration: none;
+}
+#board-nav {
+  margin-top: 2em;
+}
+#board-nav a {
+  padding: 20px;
+  border: 5px solid #eee;
+}
+#board-nav a:hover {
+  border: 5px solid #dee;
+}
+
+#board {
+  margin: 0 auto;
+  position: relative;
+  width: 344px;
+  height: 344px;
+  border: 5px solid #eee;
+}
+
+#board-loading {
+  margin: 0 auto;
+  position: absolute;
+  background: transparent url(../images/spinner-big.gif) no-repeat center center;
+  width: 344px;
+  height: 344px;
+}
