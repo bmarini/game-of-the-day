@@ -47,3 +47,7 @@ a:link, a:visited {
   width: 344px;
   height: 344px;
 }
+#footer {
+  margin-top: 4em;
+  font-size: 12px;
+}
