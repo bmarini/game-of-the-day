@@ -9,6 +9,6 @@ for its game of the day, and displays it using my
 From project root...
 
     bundle install
-    rackup
+    bundle exec rackup
 
 Browse to localhost:9292
