@@ -4,6 +4,7 @@
 # <!--begingameotd--><a href="/perl/chessgame?gid=1176374">Kameswaran Visweswaran<br>
 # <font size=-2>vs</font><br>
 # Christopher Ward</a><br><font size=-2>A Ward Winning Game</font><!--endgameotd-->
+require 'net/http'
 
 get '/' do
   erb :index
